@@ -13,10 +13,10 @@ public class Solution17 {
         System.out.println("Input your age in earth:\t");
         int age = sc.nextInt();
         Solution17 solution17 = new Solution17();
-        System.out.println("Age in Mercury:"+String.format("%.2f",solution17.calculateAge(age,MARCURY_DAYS)));
-        System.out.println("Age in Venus:"+String.format("%.2f",solution17.calculateAge(age,VENUS_DAYS)));
-        System.out.println("Age in Jupiter:"+String.format("%.2f",solution17.calculateAge(age,JUPITER_DAYS)));
-        System.out.println("Age in Saturn:"+String.format("%.2f",solution17.calculateAge(age,SATURN_DAYS)));
+        System.out.println("Age in Mercury:\t"+solution17.calculateAge(age,MARCURY_DAYS));
+        System.out.println("Age in Venus:\t"+solution17.calculateAge(age,VENUS_DAYS));
+        System.out.println("Age in Jupiter:\t"+solution17.calculateAge(age,JUPITER_DAYS));
+        System.out.println("Age in Saturn:\t"+solution17.calculateAge(age,SATURN_DAYS));
     }
 
     private int calculateAge(int ageInEarth,int daysOfPlanet)
